@@ -1,0 +1,7 @@
+<library path="lib/libdynamic_human_layer">
+  <class name="dynamic_human_layer/DynamicHumanLayer" type="dynamic_human_layer::DynamicHumanLayer" base_class_type="costmap_2d::Layer">
+    <description>
+      A costmap layer that dynamically inflates costs around detected humans with velocity-dependent Gaussian shaping.
+    </description>
+  </class>
+</library>
