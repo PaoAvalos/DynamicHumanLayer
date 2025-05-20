@@ -18,7 +18,7 @@ generate_dynamic_reconfigure_options(
 )
 catkin_package(
   INCLUDE_DIRS include
-  LIBRARIES cdynamic_human_layer
+  LIBRARIES dynamic_human_layer
   CATKIN_DEPENDS roscpp costmap_2d pluginlib dynamic_reconfigure visualization_msgs
 )
 
